@@ -21,3 +21,5 @@ Jenkins Scripts (Shell or Git or ...)
 可輸入標籤名稱和標籤説明，之後判斷標籤名稱是否規範、是否已經存在，  
 最後則獲取 master 分支最新提交，在最新提交上添加該標籤。  
 
+## auto_build_when_git_push.md
+教程：Git 倉庫有更新時自動觸發 Jenkins 構建項目
