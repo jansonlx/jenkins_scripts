@@ -81,10 +81,10 @@ declare -A repos 2>/dev/null || \
 
 # 存放所有的 Git 版本庫名稱（需要包括所屬組織或用户名）
 # 其中「repoxx」同時為 Jenkins 的「Boolean Parameter」，需要一一對應
-repos=( \
-    [repo01]="google/fonts" \
-    [repo02]="macvim-dev/macvim" \
-    )
+repos=(
+[repo01]="google/fonts"
+[repo02]="macvim-dev/macvim"
+)
 
 # ${!repos[*]} 為 repos 的所有索引
 for key in ${!repos[*]}

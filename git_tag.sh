@@ -54,10 +54,10 @@ declare -A repos 2>/dev/null || \
     { echo -e "\n[Error] >>> 此處需要使用關聯數組，請升級 Bash 到 4.0 以上版本\n"; exit 1; }
 # 存放所有的 Git 版本庫名稱（需要包括所屬組織或用户名）
 # 其中「repoxx」同時為 Jenkins 的「Boolean Parameter」，需要一一對應
-repos=( \
-    [repo01]="google/fonts" \
-    [repo02]="macvim-dev/macvim" \
-    )
+repos=(
+[repo01]="google/fonts"
+[repo02]="macvim-dev/macvim"
+)
 
 repos_to_use=()
 # ${!repos[*]} 為 repos 的所有索引
