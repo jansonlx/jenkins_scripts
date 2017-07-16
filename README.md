@@ -23,3 +23,9 @@ Jenkins Scripts (Shell or Git or ...)
 
 ## auto_build_when_git_push.md
 教程：Git 倉庫有更新時自動觸發 Jenkins 構建項目
+
+## mysql_dumper.sh
+
+1. 通過 mysqldump 命令備份 MySQL 數據庫
+2. 重置自增字段初始值（即去除「AUTO_INCREMENT=xxx」語句）
+3. 清除備份歷史文件（指定保留份数）
